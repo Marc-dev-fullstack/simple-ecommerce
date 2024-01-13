@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100&family=Lemon&family=Montserrat+Alternates:wght@100;400&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    /* font-family: 'Kalnia', serif; */
+    /*   font-family: 'Lemon', serif;  */
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0;
+}
+
+ul,
+li {
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.content-product{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(150, 35, 35, 0.298);
+    box-shadow: 10px 10px rgba(171, 166, 166, 0.52);
+    padding: 10px;
+}
